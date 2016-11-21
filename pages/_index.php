@@ -8,7 +8,8 @@
     <title>Cat-Cat</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js"></script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/index.js"></script>
 </head>
 <body>
 
@@ -25,8 +26,8 @@
 <script async src="https://static.addtoany.com/menu/page.js"></script>
 
 <div class="MainDiv">
-    <div class="MinusBtn" onclick="plus();">-5 min</div>
-    <div class="PlusBtn" onclick="minus();">+10 min</div>
+    <div class="MinusBtn" >-5 min</div>
+    <div class="PlusBtn" >+10 min</div>
     <br>
     <div class="Timer"> <?=$date->format("H:i:s")?> </div>
     <br>

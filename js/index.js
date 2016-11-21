@@ -1,8 +1,7 @@
-function plus() {
-	alert("plus")
-}
+$(document).on("click",".MinusBtn",function(){
 
-function minus(){
-	alert("minus");
-}
+});
 
+$(document).on("click",".PlusBtn",function(){
+    console.log("minus");
+});
